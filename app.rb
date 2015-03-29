@@ -14,7 +14,7 @@ get '/about' do
 end
 
 get '/last-night' do
-  erb :lastnight
+  erb :'earth-angel-hour'
 end
 
 get '/last-night.html' do
