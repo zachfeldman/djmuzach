@@ -5,6 +5,8 @@ require 'compass'
 
 require './sass-config'
 
+set :public_folder, 'public'
+
 get '/' do
   haml :home
 end
